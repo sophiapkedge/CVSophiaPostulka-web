@@ -1,0 +1,172 @@
+
+/* photo de profil */
+.card {
+	position: absolute;
+	top: 60%;
+	left: 13%;
+	margin-top:auto;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	border: 10px solid #B4C2BC;
+	box-shadow: 0 0 0 0.5px black, 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.card img {
+	display: block;
+	width: 20vw;
+	height: 20vw;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+
+/* bannière */
+.cards {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+	padding: 16px;
+	position: absolute;
+	overflow: hidden;
+	display: flex;
+  	top: 0;
+  	left: 0;
+ 	width: 100%;
+  	height: 100%;
+}
+
+
+
+/* contacts section */
+.wrapper {
+  position: sticky;
+  top:50%;
+  left: 3.5%;
+  width: 20%;
+  transform: translateY(-50%); 
+  float: left;
+  box-sizing: border-box;
+  max-width: 80%; /* empêcher la section de dépasser la largeur maximale de la fenêtre */
+  margin-top: 20%;
+}
+
+
+.contacts {
+  padding: 16px;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  color: white;
+  background-color: #B4C2BC;
+  border-radius: 6px;
+  font-family: serif;
+  box-shadow: 0 0 0 0.5px black, 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  word-wrap: break-word;
+
+}
+
+
+.contacts h3 {
+	text-stroke: 1px black;
+	-webkit-text-stroke: 0.25px black;
+	text-align:center;
+	letter-spacing: 2px;
+}
+
+.contacts img {
+	display: block;
+	width: 2vw;
+	height: 2vw;
+}
+
+.linkedin-link {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* body */
+
+.content {
+	width: 71%;
+	float: right;
+	box-sizing: border-box;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	
+	
+}
+
+.compétences {
+	text-align: left;
+	margin: 8px 0;
+	margin-left: 3%;
+
+	
+
+}
+
+.diplomes {
+	
+	text-align: left;
+	margin: 8px, 0;
+	margin-left: 3%;
+	
+
+}
+
+.expérience {
+	text-align: left;
+	margin: 8px 0;
+	margin-left: 3%;
+}
+
+
+.hobbies {
+	text-align: left;
+	margin: 8px 0;
+	margin-left: 3%;
+	padding-bottom: 18%;
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	.cards {
+		grid-template-columns: 1fr;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.cards {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
